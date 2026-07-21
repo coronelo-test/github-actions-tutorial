@@ -29,7 +29,7 @@ jobs:
       - name: "Mostrar mensaje"
         run: echo "Hello, world!"
       - name: "Mostrar variables de entorno"
-        if: ${{ env.platform != 'azure' }}
+        if: ${{ env.platform == 'azure' }}
         run: |
           echo "Platform: ${{ env.platform }}"
           echo "Region: ${{ env.region }}"
