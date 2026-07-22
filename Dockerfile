@@ -1,5 +1,5 @@
 # Etapa 1: Entorno base y pruebas
-FROM python:3.12-slim AS testing
+FROM python:3.10-alpine AS testing
 
 # Evita que Python escriba archivos .pyc en el disco
 ENV PYTHONDONTWRITEBYTECODE 1
