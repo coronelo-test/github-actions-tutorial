@@ -43,7 +43,7 @@ jobs:
           echo "Repository: ${{ github.repository }}"
           echo "Actor: $GITHUB_ACTOR"
 
-      - name: "Mostrando variables GitHub secret"
+      - name: "Mostrando variables GitHub secret/variables"
         run: |
           echo "Username: ${{ env.username }}"
           echo "Password: ${{ env.password }}"
