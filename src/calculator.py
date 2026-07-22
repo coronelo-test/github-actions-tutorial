@@ -6,4 +6,4 @@ import os
 class Calculator:
 # pylint: disable=missing-function-docstring
     def sum(self, a:int, b:int)-> int:
-        return 0
+        return a+b
