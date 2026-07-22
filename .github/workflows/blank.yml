@@ -22,6 +22,8 @@ jobs:
       platform: linux
       region: arg-south-america
       account: mi-cuenta-olga
+      username: ${{secrets.USERNAME}}
+      password: ${{secrets.PASSWORD}}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -40,3 +42,8 @@ jobs:
           echo "Event: ${{ toJSON(github.event) }}"
           echo "Repository: ${{ github.repository }}"
           echo "Actor: $GITHUB_ACTOR"
+
+      - name: "Mostrando variables GitHub secret"
+        run: |
+          echo "Username: ${{ env.username }}"
+          echo "Password: ${{ env.password }}"
