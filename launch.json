@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Package: test-github-actions",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "test-github-actions"
+        },
+        {
+            "name": "Python Package: src",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src"
+        }
+    ]
+}

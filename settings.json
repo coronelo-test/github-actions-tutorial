@@ -1,0 +1,10 @@
+{
+  "python-envs.pythonProjects": [
+    {
+      "path": "src_project",
+      "envManager": "ms-python.python:system",
+      "packageManager": "ms-python.python:pip"
+    }
+  ],
+  "pylint.args": ["--disable=C0114"]
+}
