@@ -6,6 +6,10 @@ ENV PYTHONDONTWRITEBYTECODE 1
 # Evita que Python haga buffering de stdout y stderr
 ENV PYTHONUNBUFFERED 1
 
+ENV PIP_ROOT_USER_ACTION=ignore
+
+RUN MKDIR /app
+
 WORKDIR /app
 
 # Instalar dependencias necesarias
