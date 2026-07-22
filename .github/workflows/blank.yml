@@ -47,3 +47,4 @@ jobs:
         run: |
           echo "Username: ${{ env.username }}"
           echo "Password: ${{ env.password }}"
+          echo "Project version: ${{ vars.PROJECT_VERSION}}"
