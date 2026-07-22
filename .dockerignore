@@ -1,0 +1,48 @@
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Dependencias de Python compiladas
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribuciones y paquetes
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+lib/
+
+# Archivos de entorno y secretos
+.env
+.flaskenv
+*.key
+*.pem
+secrets.json
+
+# Herramientas de testeo y cobertura
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+cover/
+pytest.xml
+
+# Entornos de desarrollo y archivos de sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
