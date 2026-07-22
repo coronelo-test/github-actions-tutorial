@@ -8,8 +8,6 @@ ENV PYTHONUNBUFFERED 1
 
 ENV PIP_ROOT_USER_ACTION=ignore
 
-RUN MKDIR /app
-
 WORKDIR /app
 
 # Instalar dependencias necesarias
